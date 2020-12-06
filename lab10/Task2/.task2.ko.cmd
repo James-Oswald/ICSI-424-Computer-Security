@@ -1,0 +1,1 @@
+cmd_/home/seed/lab10/Task2/task2.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/seed/lab10/Task2/task2.ko /home/seed/lab10/Task2/task2.o /home/seed/lab10/Task2/task2.mod.o

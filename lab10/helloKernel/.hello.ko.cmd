@@ -1,0 +1,1 @@
+cmd_/home/seed/lab10/helloKernel/hello.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/seed/lab10/helloKernel/hello.ko /home/seed/lab10/helloKernel/hello.o /home/seed/lab10/helloKernel/hello.mod.o
